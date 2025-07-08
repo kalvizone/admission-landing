@@ -5,6 +5,9 @@ import "./index.css";
 import srmLogo from "./assets/srm-logo.jpg";
 import vitLogo from "./assets/vit-logo.jpg";
 import amritaLogo from "./assets/amrita-logo.jpg";
+import bmsceLogo from "./assets/bmsce-logo.jpg";
+import rvceLogo from "./assets/rvce-logo.jpg";
+import ramaiahLogo from "./assets/ramaiah-logo.jpg";
 import kalviLogo from "./assets/kalvizone-logo.jpg";
 
 import hero1 from "./assets/hero-slide1.jpg";
@@ -29,6 +32,21 @@ function App() {
       location: "Coimbatore",
       image: amritaLogo,
     },
+    {
+    name: "BMS College of Engineering (BMSCE)",
+    location: "Bangalore",
+    image: bmsceLogo,
+  },
+  {
+    name: "RV College of Engineering",
+    location: "Bangalore",
+    image: rvceLogo,
+  },
+  {
+    name: "Ramaiah Institute of Technology",
+    location: "Bangalore",
+    image: ramaiahLogo,
+  },
   ];
 
   const heroImages = [hero1, hero2, hero3, hero4];
@@ -74,7 +92,7 @@ function App() {
     <img
       src={kalviLogo}
       alt="KalviZone Logo"
-      className="h-14 w-auto object-contain drop-shadow-lg"
+      className="h-16 w-auto object-contain drop-shadow-lg"
     />
   </div>
 
